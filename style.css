@@ -1,0 +1,159 @@
+body {
+    font-family: "Open Sans", sans-serif;
+      }
+header, footer{
+    padding: 5px;
+    background-color:orangered;
+    color:white;
+}
+/*.header {
+    position: fixed;
+    top: 0;
+    width:100%;
+}*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+   }
+
+section {
+    margin: 5px auto;
+    padding: 10px;
+}
+article {
+    border-top: 0.5px solid orangered;
+    border-top-width:thin;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+nav ul {
+            padding: 0;
+        }
+nav ul li {
+            display: inline;
+            margin: 10px;
+        }
+iframe {
+    border: none;
+}
+/* unvisited link */
+  a:link {
+    color:orangered;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  /* visited link */
+  a:visited {
+    color: darkcyan;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:darkolivegreen;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .titre {
+    font-family:sans-serif;
+    color: darkolivegreen;
+    font-size: 24px;
+    font-variant-caps:all-small-caps;
+    font-weight: bold;
+  }
+  
+  .sous_titre {
+    font-family:monospace,sans-serif;
+    font-style: italic;
+    color:darkcyan;
+    font-weight: bold;
+  }
+  
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .map img{
+    width: 100%;
+    height: 100%;  
+  }
+  
+  
+  .map {
+   
+      margin: 10px;
+      text-align: center;
+      border : 10px solid white;
+    }
+  
+  .picture {
+    background: #fff;
+    float:left;
+    padding:1px;
+    border: 0.5px solid darkcyan;
+    max-height:10%;
+    max-width:10%;
+    position:absolute;
+    transition:all .2s ease-in-out;
+    cursor:pointer;
+    
+  }
+  
+  .picture:hover{
+    transform:rotate(0) scale(3.0);
+  }
+  
+  .picture img{
+    background-color:dodgerblue;
+    max-height: inherit;
+    width: 50px;
+    height: 20px;
+  }
+  
+  .picture .caption{
+    text-align:center;
+    font-size: 8px;
+    color: mediumblue;
+    width: 50px;
+    background-color:lightsteelblue;
+  }
+  
+  .picture-1{
+    left:42%;
+    top:42%;
+    transform: rotate(-15deg);
+  }
+  
+  .picture-2{
+    left:55%;
+    top:55%;
+    transform: rotate(15deg);
+  }
+
+ .vente{
+   text-align: center;
+   border-top: 0.5px solid orangered;
+   border-top-width:thin;
+   margin: 5px;
+   padding: 10px;
+ } 
+  .vente img{
+    width: 52px;
+    height: 40px;
+ 
+  }
+  
+
+
+  
